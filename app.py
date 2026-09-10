@@ -56,7 +56,7 @@ _FILE_PATTERNS = {
 }
 _DATA_EXT = (".csv", ".xlsx")
 
-DEFAULT_DATA_FOLDER = "tests"
+DEFAULT_DATA_FOLDER = "hmlabfiles"
 
 
 def _extract_zip(uploaded_zip) -> tuple[str, dict[str, int]]:
